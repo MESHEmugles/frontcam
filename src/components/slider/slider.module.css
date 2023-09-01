@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quicksand:wght@500&display=swap');
+
+.container{
+    padding: 15em 0;
+    text-align: center;
+    color: #7D1A54;
+}
+
+.container .title{
+    font-size: 4.2em;
+    margin-bottom: 1em;
+    font-family: 'Kaushan Script', cursive;
+}
+
+/* .slider:nth-child(1) {
+    margin-top: 2em;
+} */
+
+.butlike{
+    padding: 0.8em 1.7em;
+    font-size: 1.4em;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: transparent;
+    color: #7D1A54;
+    border: 1px solid #7D1A54;
+    border-radius: 0.5em;
+    transition: all 0.4s ease-in-out;
+}
+
+.slider{
+    margin: 0 10em;
+}
+
+.owl{
+    margin-bottom: 3em;
+}
+
+#wrapper {
+    padding: 5%;
+    margin: 0 auto;
+}
+    
+@media (max-width: 900px){
+    .container .title{
+        font-size: 3.5em;
+    }
+    .container{
+        padding: 10em 0;
+    }
+    .slider{
+        margin: 0 5em;
+    }
+}
+
+@media (max-width: 580px){
+    .container .title{
+        font-size: 3em;
+    }
+    .container{
+        padding: 8em 0;
+    }
+    .slider{
+        margin: 0 2em;
+    }
+    .butlike{
+        padding: 0.5em 1em;
+        font-size: 1em;
+    }
+}
+
+

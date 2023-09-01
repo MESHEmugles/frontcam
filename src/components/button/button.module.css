@@ -1,0 +1,16 @@
+.container{
+    padding: 0.8em 1.7em;
+    font-size: 1.2em;
+    border: none;
+    background-color: #d33a2f;
+    color: white;
+    border-radius: 0.5em;
+    transition: all 0.4s ease-in-out;
+}
+
+.container:hover{
+    cursor: pointer;
+    border: 1px solid #d33a2f;
+    background-color: transparent;
+    color: #d33a2f;
+}

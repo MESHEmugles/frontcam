@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quicksand:wght@500&display=swap');
+
+.container{
+    margin: 8em 0;
+    padding: 10em 0;
+    text-align: center;
+    background-color: #7D1A54;
+    color: white;
+}
+
+.container .title{
+    font-size: 4.2em;
+    padding-bottom: 0.5em;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.container .desc{
+    font-size: 1.9em;
+    line-height: 1.4em;
+    padding-bottom: 0.5em;
+    color: rgb(219, 221, 221);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 1em;
+    margin: 7em 15em;
+}
+
+.img{
+    width: 100%;
+    height: 40vh;
+}
+
+.cardTexts{
+    text-align: left;
+    margin-left: 0.7em !important;
+    margin: 1em 0;
+}
+
+.container .cardTexts .author{
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.container .cardTexts .book{
+    font-size: 21px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    margin: 0.3em 0;
+    margin-bottom: 0.7em !important;
+}
+
+.cardTexts .link, .container .but{
+    background-color: white;
+    color: #7D1A54;
+    font-size: 1.3em;
+    font-weight: 590;
+    padding: 8px;
+    border-radius: 0.3em;
+}
+
+.container .but{
+    font-size: 2em;
+    padding: 15px;
+    border-radius: 0.3em;
+}
+
+@media (max-width: 1242px){
+    .container .cards{
+        margin: 3.5em 6em;
+        gap: 0;
+    }
+    .img{
+        width: 80%;
+    }
+    .container .cardTexts{
+        margin-left: 2.2em !important;
+    }
+    .container .cardTexts .author,.container .cardTexts .link{
+        font-size: 14px;
+    }
+    
+    .container .cardTexts .book{
+        font-size: 15px;
+        margin: 0.3em 0;
+        font-weight: 500;
+    }
+    .butlike{
+        padding: 0.8em 1.7em;
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 900px){
+    .container .title{
+        font-size: 3.5em;
+    }
+    .container .desc{
+        font-size: 1.2em;
+    }
+    .container .cards{
+        margin: 3.5em 4em;
+        gap: 0;
+    }
+    .img{
+        width: 80%;
+        height: 30vh;
+    }
+}
+
+@media (max-width: 580px){
+    .container{
+        margin: 7em 0;
+        padding: 4em 0;
+    }
+    .container .title{
+        font-size: 2.5em;
+    }
+    .container .desc{
+        font-size: 1em;
+    }
+    .container .cards{
+        margin: 3.5em 0;
+    }
+    .img{
+        width: 70%;
+        height: 27vh;
+    }
+    .container .cardTexts{
+        margin-left: 2.2em !important;
+        margin: 0.5em 0;
+    }
+    .container .cardTexts .author,.container .cardTexts .link{
+        font-size: 15px;
+    }
+    
+    .container .cardTexts .book{
+        font-size: 13px;
+    }
+    .cardTexts .link{
+        padding: 3px;
+        font-size: 1em;
+    }
+    
+    .container .but{
+        font-size: 1em;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 390px){
+    .cardTexts{
+        margin: 3em 0;
+    }
+    
+    .container .cardTexts .author{
+        font-size: 22px !important;
+        margin-left: 2.1em !important;
+        font-weight: 400;
+    }
+    
+    .container .cardTexts .book{
+        font-size: 21px;
+        font-weight: 400;
+        flex-wrap: wrap;
+        margin: 0.3em 0;
+        margin-left: 2.4em !important;
+        margin-bottom: 0.7em !important;
+    }
+    .img{
+        width: 60%;
+        height: 30vh;
+    }
+    .cardTexts .link{
+        margin-left: 3em !important;
+        margin-bottom: 2em;
+    }
+    
+    .container .but{
+        font-size: 1.2em;
+        padding: 10px;
+    }
+    .container .cards{
+        gap: 1.5em;
+    }
+}
+
