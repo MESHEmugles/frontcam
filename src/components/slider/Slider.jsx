@@ -87,7 +87,8 @@ const Slider = () => {
                           <a href={product.url}>
                             <a className="product float-left">
                               <span className="image text-center">
-                                <img id={"img" + product.id} src={product.src} alt={product.name} title={product.name}/>
+                                <img id={"img" + product.id} className={styles.img} fill
+                                 src={product.src} alt={product.name} title={product.name}/>
                               </span>
                             </a>
                           </a>

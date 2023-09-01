@@ -31,6 +31,10 @@
 .slider{
     margin: 0 10em;
 }
+.img{
+    height: auto !important;
+    width: 100% !important;
+}
 
 .owl{
     margin-bottom: 3em;
