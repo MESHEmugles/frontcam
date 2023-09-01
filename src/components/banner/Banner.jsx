@@ -12,11 +12,6 @@ const Banner = () => {
         fill={false}
         className={styles.img}  
     />
-    // <main className={styles.container}>
-    //     <div className={styles.img}>
-    //         <Image src={BANNER} alt='banner' />
-    //     </div>
-    // </main>
   )
 }
 

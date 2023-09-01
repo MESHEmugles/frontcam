@@ -1,16 +1,24 @@
+'use client'
+
 import styles from './page.module.css'
 import Banner from '@/components/banner/Banner'
 import Link from 'next/link'
-// import { useEffect } from 'react'
-// import { useEffect, useLayoutEffect, useRef } from 'react'
+import { useEffect } from 'react'
 import Slider from '@/components/slider/Slider'
 import Sermon from '@/components/sermon/Sermon'
 import Bookstore from '@/components/bookstore/Bookstore'
 import Contact from '@/components/contact/Contact'
-// import { gsap } from 'gsap';
-// import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 export default function Home() {
+
+  useEffect( () => {
+    (
+      async () => {
+        const LocomotiveScroll = (await import('locomotive-scroll')).default
+        const locomotiveScroll = new LocomotiveScroll({autoResize: true,});
+      }
+    )()
+  }, [])
 
   return (
     <main className={styles.mainContainer}>
@@ -18,7 +26,7 @@ export default function Home() {
       <div className={styles.container}>
         <Banner />
         <div className={styles.texts}>
-          <h1 className={styles.title}>
+          <h1 data-scroll className={styles.title}>
             Surely the Lord <br /> is in this place
           </h1>
           <small className={styles.desc}>
