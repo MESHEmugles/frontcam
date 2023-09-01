@@ -3,14 +3,14 @@
 import styles from './page.module.css'
 import Banner from '@/components/banner/Banner'
 import Link from 'next/link'
-// import { useEffect } from 'react'
-import { useEffect, useLayoutEffect, useRef } from 'react'
+import { useEffect } from 'react'
+// import { useEffect, useLayoutEffect, useRef } from 'react'
 import Slider from '@/components/slider/Slider'
 import Sermon from '@/components/sermon/Sermon'
 import Bookstore from '@/components/bookstore/Bookstore'
 import Contact from '@/components/contact/Contact'
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+// import { gsap } from 'gsap';
+// import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 export default function Home() {
 
@@ -23,34 +23,13 @@ export default function Home() {
     )()
   }, [])
 
-  const background = useRef(null)
-  const introImage = useRef(null)
-  const homeHeader = useRef(null)
-
-  useLayoutEffect(() => {
-    gsap.registerPlugin(ScrollTrigger)
-
-    gsap.fromTo(introImage.current, {x: '0'}, {
-      scrollTrigger: {
-        trigger: introImage.current,
-        scrub: true,
-        x:'10em',
-        // duration: 3,
-        start: 'left center',
-        end: "right center",
-        markers: true
-      },
-    })
-
-  }, {} )
-
   return (
     <main className={styles.mainContainer}>
       {/* #########################  BANNER AREA ##################### */}
-      <div ref={background} className={styles.container}>
+      <div className={styles.container}>
         <Banner />
         <div className={styles.texts}>
-          <h1 ref={introImage} data-scroll className={styles.title}>
+          <h1 data-scroll className={styles.title}>
             Surely the Lord <br /> is in this place
           </h1>
           <small className={styles.desc}>

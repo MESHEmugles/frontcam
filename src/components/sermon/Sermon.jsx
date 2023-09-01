@@ -12,7 +12,7 @@ const Sermon = () => {
             <small className={styles.desc}>Listen and Download Messages</small>
             <div className={styles.cards}>
                 <div className={styles.grids}>
-                    <Image src={listen} quality={100} fill={false} className={styles.img}/>
+                    <Image alt='' src={listen} quality={100} fill={false} className={styles.img}/>
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Dr D.k. Olukoya</small>
                         <p className={styles.book}>Dancers at the gate of hell</p>
@@ -20,7 +20,7 @@ const Sermon = () => {
                     </div>
                 </div>
                 <div className={styles.grids}>
-                    <Image src={listen} quality={100} fill={false} className={styles.img}/>
+                    <Image alt='' src={listen} quality={100} fill={false} className={styles.img}/>
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Dr D.k. Olukoya</small>
                         <p className={styles.book}>Dancers at the gate of hell</p>
@@ -28,7 +28,7 @@ const Sermon = () => {
                     </div>
                 </div>
                 <div className={styles.grids}>
-                    <Image src={listen} quality={100} fill={false} className={styles.img}/>
+                    <Image alt='' src={listen} quality={100} fill={false} className={styles.img}/>
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Dr D.k. Olukoya</small>
                         <p className={styles.book}>Dancers at the gate of hell</p>
@@ -36,7 +36,7 @@ const Sermon = () => {
                     </div>
                 </div>
                 <div className={styles.grids}>
-                    <Image src={listen} quality={100} fill={false} className={styles.img}/>
+                    <Image alt='' src={listen} quality={100} fill={false} className={styles.img}/>
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Dr D.k. Olukoya</small>
                         <p className={styles.book}>Dancers at the gate of hell</p>
@@ -44,7 +44,7 @@ const Sermon = () => {
                     </div>
                 </div>
                 <div className={styles.grids}>
-                    <Image src={listen} quality={100} fill={false} className={styles.img}/>
+                    <Image alt='' src={listen} quality={100} fill={false} className={styles.img}/>
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Dr D.k. Olukoya</small>
                         <p className={styles.book}>Dancers at the gate of hell</p>
@@ -52,7 +52,7 @@ const Sermon = () => {
                     </div>
                 </div>
                 <div className={styles.grids}>
-                    <Image src={listen} quality={100} fill={false} className={styles.img}/>
+                    <Image alt='' src={listen} quality={100} fill={false} className={styles.img}/>
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Dr D.k. Olukoya</small>
                         <p className={styles.book}>Dancers at the gate of hell</p>

@@ -19,7 +19,7 @@ const Bookstore = () => {
             <small className={styles.desc}>A Gateway to higher Consciousness <br /> Elevate your Spirituality with Us</small>
             <div className={styles.cards}>
                 <div className={styles.grids}>
-                    <Image src={one} quality={100} fill={false} className={styles.img}/>
+                    <Image alt='' src={one} quality={100} fill={false} className={styles.img}/>
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
@@ -27,7 +27,7 @@ const Bookstore = () => {
                     </div>
                 </div>
                 <div className={styles.grids}>
-                    <Image src={two} quality={100} fill={false} className={styles.img}/>
+                    <Image alt='' src={two} quality={100} fill={false} className={styles.img}/>
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
@@ -35,7 +35,7 @@ const Bookstore = () => {
                     </div>
                 </div>
                 <div className={styles.grids}>
-                    <Image src={three} quality={100} fill={false} className={styles.img}/>
+                    <Image alt='' src={three} quality={100} fill={false} className={styles.img}/>
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
@@ -43,7 +43,7 @@ const Bookstore = () => {
                     </div>
                 </div>
                 <div className={styles.grids}>
-                    <Image src={four} quality={100} fill={false} className={styles.img}/>
+                    <Image alt='' src={four} quality={100} fill={false} className={styles.img}/>
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
@@ -51,7 +51,7 @@ const Bookstore = () => {
                     </div>
                 </div>
                 <div className={styles.grids}>
-                    <Image src={five} quality={100} fill={false} className={styles.img}/>
+                    <Image alt='' src={five} quality={100} fill={false} className={styles.img}/>
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
@@ -59,7 +59,7 @@ const Bookstore = () => {
                     </div>
                 </div>
                 <div className={styles.grids}>
-                    <Image src={six} quality={100} fill={false} className={styles.img}/>
+                    <Image alt='' src={six} quality={100} fill={false} className={styles.img}/>
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
@@ -67,7 +67,7 @@ const Bookstore = () => {
                     </div>
                 </div>
                 <div className={styles.grids}>
-                    <Image src={seven} quality={100} fill={false} className={styles.img}/>
+                    <Image alt='' src={seven} quality={100} fill={false} className={styles.img}/>
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
@@ -75,7 +75,7 @@ const Bookstore = () => {
                     </div>
                 </div>
                 <div className={styles.grids}>
-                    <Image src={eight} quality={100} fill={false} className={styles.img}/>
+                    <Image alt='' src={eight} quality={100} fill={false} className={styles.img}/>
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
