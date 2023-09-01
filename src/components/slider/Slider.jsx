@@ -14,25 +14,25 @@ let banner =[
     id: 1,
     name: 'slider',
     src: '/special.png',
-    url: 'programs',
+    url: '/',
   },
   {
     id: 2,
     name: 'slider2',
     src: '/special2.png',
-    url: 'programs',
+    url: '/',
   },
   {
     id: 3,
     name: 'slider3',
     src: '/special.png',
-    url: 'programs',
+    url: '/',
   },
   {
     id: 4,
     name: 'slider4',
     src: '/special2.png',
-    url: 'programs',
+    url: '/',
   },
 ];
 

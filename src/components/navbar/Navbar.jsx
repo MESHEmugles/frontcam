@@ -19,25 +19,25 @@ const links =[
         id: 2,
         title: 'MFM Cameroon',
         slug: 'mfm-cameroon',
-        url: '/region'
+        url: '/'
     },
     {
         id: 3,
         title: 'Sermon',
         slug: 'sermon',
-        url: '/sermon'
+        url: '/'
     },
     {
         id: 4,
         title: 'Bookshop',
         slug: 'bookshop',
-        url: '/bookshop'
+        url: '/'
     },
     {
         id: 5,
         title: 'Programs',
         slug: 'programs',
-        url: '/programs'
+        url: '/'
     }
 ]
 

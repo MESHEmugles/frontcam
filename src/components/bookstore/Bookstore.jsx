@@ -23,7 +23,7 @@ const Bookstore = () => {
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
-                        <Link href='/bookstore' className={styles.link}>Buy Now</Link>
+                        <Link href='/' className={styles.link}>Buy Now</Link>
                     </div>
                 </div>
                 <div className={styles.grids}>
@@ -31,7 +31,7 @@ const Bookstore = () => {
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
-                        <Link href='/bookstore' className={styles.link}>Buy Now</Link>
+                        <Link href='/' className={styles.link}>Buy Now</Link>
                     </div>
                 </div>
                 <div className={styles.grids}>
@@ -39,7 +39,7 @@ const Bookstore = () => {
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
-                        <Link href='/bookstore' className={styles.link}>Buy Now</Link>
+                        <Link href='/' className={styles.link}>Buy Now</Link>
                     </div>
                 </div>
                 <div className={styles.grids}>
@@ -47,7 +47,7 @@ const Bookstore = () => {
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
-                        <Link href='/bookstore' className={styles.link}>Buy Now</Link>
+                        <Link href='/' className={styles.link}>Buy Now</Link>
                     </div>
                 </div>
                 <div className={styles.grids}>
@@ -55,7 +55,7 @@ const Bookstore = () => {
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
-                        <Link href='/bookstore' className={styles.link}>Buy Now</Link>
+                        <Link href='/' className={styles.link}>Buy Now</Link>
                     </div>
                 </div>
                 <div className={styles.grids}>
@@ -63,7 +63,7 @@ const Bookstore = () => {
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
-                        <Link href='/bookstore' className={styles.link}>Buy Now</Link>
+                        <Link href='/' className={styles.link}>Buy Now</Link>
                     </div>
                 </div>
                 <div className={styles.grids}>
@@ -71,7 +71,7 @@ const Bookstore = () => {
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
-                        <Link href='/bookstore' className={styles.link}>Buy Now</Link>
+                        <Link href='/' className={styles.link}>Buy Now</Link>
                     </div>
                 </div>
                 <div className={styles.grids}>
@@ -79,11 +79,11 @@ const Bookstore = () => {
                     <div className={styles.cardTexts}>
                         <small className={styles.author}>Command the Morning</small>
                         <p className={styles.book}>N1500</p>
-                        <Link href='/bookstore' className={styles.link}>Buy Now</Link>
+                        <Link href='/' className={styles.link}>Buy Now</Link>
                     </div>
                 </div>
             </div>
-            <Link href='/bookstore' className={styles.but}>More Books</Link>
+            <Link href='/' className={styles.but}>More Books</Link>
         </div>
     </div>
   )

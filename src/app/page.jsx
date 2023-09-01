@@ -36,8 +36,8 @@ export default function Home() {
           </small>
           <br />
           <div className={styles.but}>
-            <Link href="about" className={styles.butlike}> About Us </Link>
-            <Link href="sermon" className={styles.sermon}> Sermon </Link>
+            <Link href="/" className={styles.butlike}> About Us </Link>
+            <Link href="/" className={styles.sermon}> Sermon </Link>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function Home() {
             demonstration of the power of God to <br />
             deliver to the uttermost.
           </p>
-          <Link href="/about" className={styles.like}> Read More </Link>
+          <Link href="/" className={styles.like}> Read More </Link>
         </div>
       </div>
 
