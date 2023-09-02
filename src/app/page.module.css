@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quicksand:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quicksand:wght@500&display=swap');
 
 .container{
     position: relative;
@@ -8,14 +7,14 @@
 .texts{
     position: absolute;
     top: 20%;
-    margin-left: 9em;
+    margin-left: 7em;
 }
 
 .texts .title{
     font-size: 6em;
     margin-bottom: 12px;
     color: white;
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Kaushan Script', cursive !important;
     line-height: 1.2em;
 }
 .texts .desc{
@@ -23,7 +22,7 @@
     margin: 6px 0;
     line-height: 1.4em;
     color: white;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif !important;
 }
 .butlike{
     padding: 0.8em 1.7em;
@@ -82,29 +81,6 @@
     border-radius: 0.5em;
     margin-left: 2em;
 }
-
-/* @media (min-width: 1500px){
-    .texts .title{
-        font-size: 10em !important;
-    }
-    .texts .desc{
-        font-size: 3em !important;
-        padding-bottom: 3em !important;
-    }    
-    .texts{
-        top: 15%;
-        margin-left: 4em !important;
-    }
-    .sermon{
-        padding: 0.9em 1.8em;
-        font-size: 2em;
-    }
-    .butlike{
-        padding: 0.8em 1.7em;
-        font-size: 2em;
-    }
-    
-} */
 @media (max-width: 1242px){
     .texts{
         top: 20%;
