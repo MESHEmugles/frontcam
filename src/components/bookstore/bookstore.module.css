@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quicksand:wght@500&display=swap');
-
 .container{
     margin: 8em 0;
     padding: 10em 0;
@@ -11,7 +9,7 @@
 .container .title{
     font-size: 4.2em;
     padding-bottom: 0.5em;
-    font-family: 'Kaushan Script', cursive;
+    font-family: var(--script-font) !important;
 }
 
 .container .desc{
@@ -19,7 +17,7 @@
     line-height: 1.4em;
     padding-bottom: 0.5em;
     color: rgb(219, 221, 221);
-    font-family: 'Quicksand', sans-serif;
+    font-family: var(--quick-font) !important;
 }
 
 .container .cards{
