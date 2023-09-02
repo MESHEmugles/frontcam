@@ -88,8 +88,8 @@
 }
 @media (max-width: 1242px){
     .mainContainer{
-        margin-top: 10px !important;
-        margin-bottom: 10px !important;
+        margin-top: 7px !important;
+        margin-bottom: 7px !important;
         margin: 0;
         padding: 0 3em;
     }
@@ -200,9 +200,13 @@
 @media (max-width: 590px){
     .mainContainer{
         padding: 0 0.9em;
+        margin-top: 0 !important;
+        margin-bottom: 20px !important;
+        height: 100px;
     }
     .logo{
-        left: 3%;
+        left: 0;
+        margin-left: 0;
     }
     .nav{
         right: 3%;
@@ -214,11 +218,11 @@
     }
     .smallContact{
         position: absolute;
-        top: 72%;
-        left: 68%;
-        width: fit-content;
+        top: 80%;
+        left: 70%;
+        width: 38%;
         z-index: 0 !important;
-        padding: 0.9em 1em;
+        padding: 0.7em 0.4em;
         font-weight: 500;
         cursor: pointer;
         background-color: #7D1A54;

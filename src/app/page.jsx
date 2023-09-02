@@ -1,9 +1,9 @@
-'use client'
+// 'use client'
 
 import styles from './page.module.css'
 import Banner from '@/components/banner/Banner'
 import Link from 'next/link'
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 import Slider from '@/components/slider/Slider'
 import Sermon from '@/components/sermon/Sermon'
 import Bookstore from '@/components/bookstore/Bookstore'
@@ -11,14 +11,14 @@ import Contact from '@/components/contact/Contact'
 
 export default function Home() {
 
-  useEffect( () => {
-    (
-      async () => {
-        const LocomotiveScroll = (await import('locomotive-scroll')).default
-        const locomotiveScroll = new LocomotiveScroll({autoResize: true,});
-      }
-    )()
-  }, [])
+  // useEffect( () => {
+  //   (
+  //     async () => {
+  //       const LocomotiveScroll = (await import('locomotive-scroll')).default
+  //       const locomotiveScroll = new LocomotiveScroll({autoResize: true,});
+  //     }
+  //   )()
+  // }, [])
 
   return (
     <main className={styles.mainContainer}>
