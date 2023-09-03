@@ -18,27 +18,27 @@
 
 .logo{
     display: grid;
-    margin-top: 1em;
+    margin-top: 2.5em;
     margin-left: 3em;
 }
 
 .img{
-    height: 60px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     margin-left: 0.2em;
     margin-bottom: 0;
 }
 
 .cam{
-    margin-top: -6em;
-    font-size: 8px;
+    margin-top: -9.5em;
+    font-size: 6px;
     line-height: 0;
 }
 
 .link{
     display: grid;
     margin-top: 2em;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .link .links{

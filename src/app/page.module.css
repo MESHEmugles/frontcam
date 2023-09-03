@@ -9,25 +9,26 @@
 }
 
 .texts .title{
-    font-size: 6em;
+    font-size: 5.6em;
     margin-bottom: 12px;
-    color: white;
+    color: #EDEDED;
     font-family: var(--script-font) !important;
     line-height: 1.2em;
+    font-weight: 400 !important;
 }
 .texts .desc{
-    font-size: 1.6em;
+    font-size: 1.5em;
     margin: 6px 0;
     line-height: 1.4em;
-    color: white;
+    color: #EDEDED;
     font-family: var(--quick-font) !important;
 }
 .butlike{
-    padding: 0.8em 1.7em;
-    font-size: 1.2em;
-    border: 1px solid white;
+    padding: 0.9em 1.8em;
+    font-size: 1.375em;
+    border: 1px solid #EDEDED;
     background-color: transparent;
-    color: white;
+    color: #EDEDED;
     cursor: pointer;
     border-radius: 0.5em;
     transition: all 0.4s ease-in-out;
@@ -39,15 +40,16 @@
 }
 
 .aboutsub .abttitle{
-    font-size: 4.2em;
+    font-size: 4em;
     margin: 20px 0;
     color: #7D1A54;
     font-family: var(--script-font) !important;
+    font-weight: 400 !important;
 }
 
 .abtdesc{
-    font-size: 30px;
-    color: rgb(24, 18, 18);
+    font-size: 1.5em;
+    color: #030804;
     line-height: 1.4em;
     margin-bottom: 2em;
 }
@@ -69,8 +71,8 @@
 }
 
 .sermon{
-    padding: 0.8em 1.7em;
-    font-size: 1.3em;
+    padding: 0.9em 1.8em;
+    font-size: 1.375em;
     font-weight: 500;
     cursor: pointer;
     background-color: #7D1A54;
@@ -85,10 +87,14 @@
         margin-left: 4em !important;
     }
     .title{
-        font-size: 6em !important;
+        font-size: 4em !important;
     }
     .desc{
-        font-size: 1.6em !important;
+        font-size: 1em !important;
+    }
+    .butlike, .sermon{
+        padding: 0.7em 1.2em;
+        font-size: 1.1em;
     }
 }
 

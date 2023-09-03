@@ -4,14 +4,15 @@
 
 .container .title{
     color: #7D1A54;
-    font-size: 60px;
+    font-size: 4em;
+    font-weight: 400;
     padding-bottom: 0.5em;
     font-family: var(--script-font) !important;
 }
 
 .container .desc{
     line-height: 1.4em;
-    font-size: 30px;
+    font-size: 1.5em;
     color: rgb(51, 49, 49);
     padding-bottom: 0.5em;
     font-family: var(--quick-font) !important;
@@ -49,7 +50,7 @@
     border: none;
     outline: none;
     color: #1b1a1a;
-    border: 2px solid #1b1a1a;
+    border: 2px solid #414040be;
     font-size: 20px;
     font-weight: small;
 }

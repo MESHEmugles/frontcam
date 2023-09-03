@@ -2,7 +2,7 @@
     max-width: 1366px;
     margin: 20px 60px !important;
     padding: 0 60px;
-    height: 100px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +41,7 @@
     align-items: center;
     gap: 25px;
     margin-right: 3.5em;
-    font-size: 1.2em;
+    font-size: 1em;
     margin-top: 25px;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .contact{
-    padding: 0.8em 1.3em;
+    padding: 0.75em 1.5em;
     font-weight: 500;
     cursor: pointer;
     background-color: #7D1A54;
@@ -94,7 +94,7 @@
         padding: 0 3em;
     }
     .logo{
-        margin-top: 1.5em;
+        margin-top: 1em;
         margin-left: 2em;
     }
     .nav{
@@ -232,14 +232,14 @@
     }
 }
 
-@media (max-width: 370px){
+@media (max-width: 380px){
     .logo{
         position: absolute;
-        top: 44%;
-        left: 3%;
+        top: 60%;
+        left: 0;
     }
     .nav{
-        right: 0;
+        right: 9%;
         margin-right: 0;
     }
     .nav .links{

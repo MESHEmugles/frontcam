@@ -5,7 +5,8 @@
 }
 
 .container .title{
-    font-size: 4.2em;
+    font-size: 4em;
+    font-weight: 400;
     margin-bottom: 1em;
     font-family: var(--script-font) !important;
 }

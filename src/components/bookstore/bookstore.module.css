@@ -7,13 +7,14 @@
 }
 
 .container .title{
-    font-size: 4.2em;
+    font-size: 4em;
     padding-bottom: 0.5em;
+    font-weight: 400;
     font-family: var(--script-font) !important;
 }
 
 .container .desc{
-    font-size: 1.9em;
+    font-size: 1.5em;
     line-height: 1.4em;
     padding-bottom: 0.5em;
     color: rgb(219, 221, 221);
@@ -23,7 +24,8 @@
 .container .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
-    gap: 1em;
+    row-gap: 5em;
+    column-gap: 2.375em;
     margin: 7em 13em;
 }
 
@@ -62,8 +64,8 @@
 }
 
 .container .but{
-    font-size: 2em;
-    padding: 15px;
+    padding: 0.8em 1.7em;
+    font-size: 1.4em;
     border-radius: 0.3em;
 }
 
@@ -156,26 +158,23 @@
     }
     
     .container .cardTexts .author{
-        font-size: 22px !important;
-        margin-left: 2.1em !important;
+        font-size: 1.1em !important;
+        margin-left: 3.3em !important;
         font-weight: 400;
     }
     
     .container .cardTexts .book{
-        font-size: 21px;
-        font-weight: 400;
-        flex-wrap: wrap;
-        margin: 0.3em 0;
-        margin-left: 2.4em !important;
-        margin-bottom: 0.7em !important;
+        font-size: 1.1em;
+        margin-left: 3.3em !important;
     }
     .img{
-        width: 60%;
-        height: 30vh;
+        width: 50%;
+        height: 40vh;
     }
     .cardTexts .link{
-        margin-left: 3em !important;
+        margin-left: 4em !important;
         margin-bottom: 2em;
+        padding: 0.3em 0.7em;
     }
     
     .container .but{

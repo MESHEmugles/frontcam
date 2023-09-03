@@ -4,9 +4,10 @@
 
 .container .title{
     color: #7D1A54;
-    font-size: 4.2em;
+    font-size: 4em;
     padding-bottom: 0.5em;
     font-family: var(--script-font) !important;
+    font-weight: 400;
 }
 
 .container .desc{
@@ -32,13 +33,15 @@
     margin: 1em 0;
     /* margin-bottom: 1em; */
 }
-.container .cardTexts .author,.container .cardTexts .link{
+.container .cardTexts .author{
     font-size: 16px;
 }
 
-.link{
+
+.container .cardTexts .link{
     text-decoration: underline !important;
     color: #7D1A54;
+    font-size: 1.25em;
 }
 
 .container .cardTexts .book{
@@ -125,8 +128,12 @@
         margin-left: 1.5em !important;
         margin: 0.5em 0;
     }
-    .container .cardTexts .author,.container .cardTexts .link{
+    .container .cardTexts .author{
         font-size: 11px;
+    }
+    .container .cardTexts .link{
+        font-size: 1.25em;
+        padding-bottom: 1em;
     }
     
     .container .cardTexts .book{
@@ -147,7 +154,7 @@
         margin-left: 0.2em !important;
         margin: 0 0;
     }
-    .container .cardTexts .author,.container .cardTexts .link{
+    .container .cardTexts{
         font-size: 13px;
     }
     
