@@ -26,7 +26,7 @@
     grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
     row-gap: 5em;
     column-gap: 2.375em;
-    margin: 7em 11.5em;
+    margin: 7em 10.7em;
 }
 
 .img{
