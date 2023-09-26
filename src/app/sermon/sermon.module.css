@@ -33,7 +33,7 @@
     font-weight: lighter !important;
 }
 .grids .imgContainer .image{
-    width: 200px;
+    width: 100% !important;
     height: 200px;
     position: relative !important;
 }
@@ -44,7 +44,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 10em 20em;
+    margin: 10em 19em;
 }
 .container .cardTexts{
     text-align: left;
