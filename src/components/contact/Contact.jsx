@@ -1,28 +1,57 @@
 import React from 'react'
 import styles from './contact.module.css'
-import Link from 'next/link'
 import Image from 'next/image'
-import listen from 'public/listen.png'
+import weekly from 'public/weekly.png'
+import Link from 'next/link'
 
 const Contact = () => {
   return (
     <div className={styles.mainContainer}>
         <div className={styles.container}>
-            <h2 className={styles.title}>Need Help? <br /> Messages Us</h2>
-            <small className={styles.desc}>Have a need or enquiry? <br /> Reach out to us Here</small>
+            <h2 className={styles.title}>Join us for our <br /> Mid-Week Programs</h2>
             <div className={styles.content}>
-                <div className={styles.imgContainer}>
-                    <Image src={listen} alt='' fill={true} className={styles.image} />
+                <div className={styles.grids}>
+                    <Image alt='' src={weekly} quality={100} fill={false} className={styles.img}/>
+                    <div className={styles.cardTexts}>
+                        <div className={styles.mainTitle}>
+                            <span className={styles.author}>Sunday Service</span>
+                            <small className={styles.book}>8:00AM</small>
+                        </div>
+                        <a href="/" className={styles.link}>Read more</a>
+                    </div>
                 </div>
-                <form className={styles.form}>
-                    <input type="text" placeholder='John Doe' className={styles.input} />
-                    <input type="text" placeholder='phone number' className={styles.input} />
-                    <input type="text" placeholder='John@gmail..' className={styles.input} />
-                    <textarea className={styles.textArea} cols={30} rows={10} placeholder='Message'></textarea>
-
-                    <Link href="/" className={styles.butlike}> Send Message </Link>
-                </form>
+                <div className={styles.grids}>
+                    <Image alt='' src={weekly} quality={100} fill={false} className={styles.img}/>
+                    <div className={styles.cardTexts}>
+                        <div className={styles.mainTitle}>
+                            <span className={styles.author}>Sunday Service</span>
+                            <small className={styles.book}>8:00AM</small>
+                        </div>
+                        <a href="/" className={styles.link}>Read more</a>
+                    </div>
+                </div>
+                <div className={styles.grids}>
+                    <Image alt='' src={weekly} quality={100} fill={false} className={styles.img}/>
+                    <div className={styles.cardTexts}>
+                        <div className={styles.mainTitle}>
+                            <span className={styles.author}>Sunday Service</span>
+                            <small className={styles.book}>8:00AM</small>
+                        </div>
+                        <a href="/" className={styles.link}>Read more</a>
+                    </div>
+                </div>
+                <div className={styles.grids}>
+                    <Image alt='' src={weekly} quality={100} fill={false} className={styles.img}/>
+                    <div className={styles.cardTexts}>
+                        <div className={styles.mainTitle}>
+                            <span className={styles.author}>Sunday Service</span>
+                            <small className={styles.book}>8:00AM</small>
+                        </div>
+                        <a href="/" className={styles.link}>Read more</a>
+                    </div>
+                </div>
             </div>
+            <Link href="/sermon" className={styles.butlike}> View All </Link>
         </div>
     </div>
   )

@@ -19,25 +19,25 @@ const links =[
         id: 2,
         title: 'MFM Cameroon',
         slug: 'mfm-cameroon',
-        url: '/'
+        url: '/mfmcam'
     },
     {
         id: 3,
         title: 'Sermon',
         slug: 'sermon',
-        url: '/'
+        url: '/sermon'
     },
     {
         id: 4,
         title: 'Bookshop',
         slug: 'bookshop',
-        url: '/'
+        url: '/bookstore'
     },
     {
         id: 5,
         title: 'Programs',
         slug: 'programs',
-        url: '/'
+        url: '/programs'
     }
 ]
 
@@ -51,7 +51,11 @@ const Navbar = () => {
         <main className={styles.mainContainer}>
             <div className={styles.logo}>
                 <Image src={MFM} alt='mfm logo' className={styles.img} />
-                <small className={styles.cam}>MFM CAMEROON</small>
+                <small className={styles.cam}>
+                Mega Regional HQ., <br />
+                Omnisport Yaoundé, <br />
+                Cameroon
+                </small>
             </div>
             <label id='icon' className={styles.icon}>
                 <Image src='/icon.png' alt='' width={20} height={30} className={styles.burger} />
