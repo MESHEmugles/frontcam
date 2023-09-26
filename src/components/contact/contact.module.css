@@ -48,7 +48,7 @@
 
 .content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     row-gap: 3em;
     column-gap: 1.5em;
     margin: 4em 18.5em;
@@ -56,7 +56,7 @@
   
 .img {
     height: 14.88em;
-    width: 24.63em;
+    width: 95%;
 }
 .butlike{
     padding: 0.8em 1.7em;

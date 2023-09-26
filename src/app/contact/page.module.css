@@ -9,7 +9,8 @@
 }
 .banner .img{
     object-fit: fill;
-    height: 43.3vh;
+    height: 100%;
+    width: 35% !important;
 }
 .banner .bannerHeader{
     margin-left: 7em;
